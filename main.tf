@@ -18,5 +18,6 @@ resource "terraform_data" "test" {
 action "bufo_print" "success" {
   config {
     name = "bufo-the-builder"
+    color = true
   }
 }
